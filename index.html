@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <link rel="stylesheet" href="file:///storage/emulated/0/MyBlog/css/style.css">
+    <link rel="stylesheet" href="file:///storage/emulated/0/MyBlog/css/components.css">
+    <link rel="stylesheet" href="file:///storage/emulated/0/MyBlog/css/responsive.css">
+</head>
+<body>
+    <!-- 菜单栏 -->
+    <div class="navbar">
+        <div class="nav-left">
+            <span class="back-button" id="backButton">&lt;</span>
+            <div class="nav-title-container">
+                <span class="nav-title" id="blogTitle">我的博客</span>
+                <span class="nav-title" id="settingsTitle" style="opacity:0;filter:blur(4px)">设置</span>
+            </div>
+        </div>
+        <div style="display:flex; align-items:center;">
+            <svg class="search-button" id="searchButton">...</svg>
+            <svg class="settings-button" id="settingsButton">...</svg>
+        </div>
+    </div>
+
+    <!-- 博客列表 -->
+    <div class="content" id="content"></div>
+
+    <!-- 博客详情页 -->
+    <div class="post-detail" id="postDetail">...</div>
+
+    <!-- 设置页面 -->
+    <div class="settings-screen" id="settingsScreen">...</div>
+
+    <!-- 搜索界面 -->
+    <div class="search-overlay" id="searchOverlay"></div>
+    <div class="search-container" id="searchContainer">...</div>
+
+    <!-- 搜索结果提示 -->
+    <div class="search-toast" id="searchToast">...</div>
+
+    <script src="file:///storage/emulated/0/MyBlog/js/utils.js"></script>
+    <script src="file:///storage/emulated/0/MyBlog/js/blog.js"></script>
+    <script src="
+file:///storage/emulated/0/MyBlog/js/main.js"></script>
+</body>
+</html>
