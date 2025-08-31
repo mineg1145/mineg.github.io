@@ -1,1 +1,64 @@
+/* 平板设备 */
+@media (max-width: 768px) {
+  .content {
+    padding: 72px 12px 12px 12px;
+  }
+  
+  .post-title {
+    font-size: 20px;
+  }
+  
+  .post-subtitle {
+    font-size: 15px;
+  }
+  
+  .settings-screen, .post-detail {
+    padding: 12px;
+  }
+  
+  .search-container {
+    width: 85%;
+    top: 70px;
+  }
+}
 
+/* 手机设备 */
+@media (max-width: 480px) {
+  .blog-image {
+    height: 140px;
+  }
+  
+  .nav-title {
+    font-size: 16px;
+  }
+  
+  .settings-button, .search-button {
+    margin-left: 12px;
+  }
+  
+  .search-container {
+    width: 82%;
+    padding: 12px;
+  }
+  
+  .search-input {
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+
+  /* 移动端设置项适配 */
+  .setting-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+  
+  .setting-switch {
+    margin-top: 12px;
+    align-self: flex-end;
+  }
+  
+  .settings-content {
+    padding-top: 68px;
+  }
+}

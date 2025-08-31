@@ -1,1 +1,38 @@
+/* CSS变量定义 */
+:root {
+  --primary-bg: #fff;
+  --secondary-bg: rgba(255,255,255,0.9);
+  --text-color: #000;
+  --secondary-text: #555;
+  --shadow-color: rgba(0,0,0,0.1);
+  --card-bg: rgba(0,0,0,0.05);
+  --transition-time: 0.3s;
+  --blur-intensity: 15px;
+}
 
+body.dark-mode {
+  --primary-bg: #1a1a1a;
+  --secondary-bg: rgba(26,26,26,0.9);
+  --text-color: #fff;
+  --secondary-text: #aaa;
+  --shadow-color: rgba(0,0,0,0.3);
+  --card-bg: rgba(255,255,255,0.1);
+}
+
+/* 基础样式 */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  overflow-x: hidden;
+  transition: background-color var(--transition-time), color var(--transition-time);
+}
+
+/* 布局样式 */
+.content {
+  padding: 72px 16px 16px 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: filter var(--transition-time), opacity var(--transition-time);
+}
